@@ -1,0 +1,30 @@
+@import "./galeria";
+@import "./about";
+@import "./type";
+
+body {
+    background-color: #D9D9D9;
+    width: 100%;
+    padding: 0px 40px;
+    margin: 0px;
+  }
+
+  .logoIndex {
+      @include centrado;
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+    .logoIndex1 {
+        width: 500px;
+        height:46px;
+      }
+    }
+    
+    @media only screen and (max-width: 700px) {
+    .logoIndex1 {
+        width: 400px;
+        height:37px;
+      }
+    }
+    

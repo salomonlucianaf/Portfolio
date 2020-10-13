@@ -1,0 +1,154 @@
+.img-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.galeria {
+  position: relative;
+  margin: 20px;
+  animation: fadeIn;
+          animation-duration: 2s;
+          animation-iteration-count: 1;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.galeria:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.fotoPerfil {
+  display: flex;
+  align-items: left;
+  align-items: center;
+}
+
+h1, h2, p, span, a {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.nav-link {
+  color: black;
+}
+
+a:hover {
+  color: white !important;
+}
+
+p, h1, h2 {
+  text-align: center;
+}
+
+body {
+  background-color: #D9D9D9;
+  width: 100%;
+  padding: 0px 40px;
+  margin: 0px;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.logoIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+          animation: fadeIn;
+          animation-duration: 2s;
+          animation-iteration-count: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logoIndex1 {
+    width: 500px;
+    height: 46px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logoIndex1 {
+    width: 400px;
+    height: 37px;
+  }
+}
+nav {
+  z-index: 1;
+  background: #D9D9D9;
+}
+
+#about {
+   overflow: hidden;
+padding:0px;
+
+}
+
+.aboutTexto {
+  padding:20px;
+}
+
+.form-contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+          }
+
+
+
+
+/*# sourceMappingURL=style.css.map */

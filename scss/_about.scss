@@ -1,0 +1,15 @@
+.img-circle {
+    border-radius: 50%;
+}
+
+@mixin centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 100vh;
+    flex-direction: column;
+}
+
+.fotoPerfil {
+    @include centrado
+    }

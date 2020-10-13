@@ -1,0 +1,19 @@
+$roboto: 'Roboto Condensed', sans-serif;
+$black: black;
+$white: white;
+
+h1, h2, p, span, a {
+    font-family: $roboto;
+ }
+
+ a {
+     color: $black;
+ }
+
+ a:hover {
+     color: $white;
+ }
+
+ p, h1, h2 {
+     text-align: center;
+ }
