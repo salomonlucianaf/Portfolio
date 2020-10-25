@@ -1,3 +1,4 @@
+
 .img-responsive {
   display: block;
   width: 100%;
@@ -157,6 +158,31 @@ padding:0px;
           }
 
 
+.form-control {
+  background: transparent;
+  border-color: black;
+}
+
+.form-control:focus {
+    background-color: #D9D9D9;
+    border-color: black;
+}
 
 
+.linkContacto {
+color: black;
+}
+
+.parrafoContacto {
+  text-align: left;
+}
+
+.btn-primary {
+  background-color: black;
+  outline: none;
+}
+
+.btn-primary:hover {
+  background-color: white;
+}
 /*# sourceMappingURL=style.css.map */
