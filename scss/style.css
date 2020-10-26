@@ -216,4 +216,9 @@ input:focus{
   color:black;
 }
 
+.form-contacto {
+   animation: fadeIn;
+          animation-duration: 2s;
+          animation-iteration-count: 1;
+}
 /*# sourceMappingURL=style.css.map */
