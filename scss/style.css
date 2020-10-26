@@ -1,4 +1,25 @@
 
+.aboutTexto {
+ display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+          animation: fadeIn;
+          animation-duration: 2s;
+          animation-iteration-count: 1;
+}
+
+
 .img-responsive {
   display: block;
   width: 100%;
@@ -29,7 +50,7 @@
 }
 
 .galeria:hover .overlay {
-  opacity: 1;
+  opacity: 0.75;
 }
 
 .text {
@@ -85,6 +106,7 @@ body {
 
 body::-webkit-scrollbar {
     display: none;
+
 }
 
 body {
@@ -185,4 +207,6 @@ color: black;
 .btn-primary:hover {
   background-color: white;
 }
+
+
 /*# sourceMappingURL=style.css.map */
